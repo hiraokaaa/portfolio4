@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+}
+
+.nav_all {
+  width: 100%;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+}
+
+.nav_list {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+
+}
+
+.nav_item {
+  font-size: 14px;
+  padding: 0 12px;
+}
+
+.nav_link {
+  display: inline-block;
+}
+
+.nav_link:hover {
+  color: #b6b6b6;
+}
+
+.top {
+  display: flex;
+}
+
+.section:nth-child(odd){
+  background-color: #b1b0af;
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+/* TOP */
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 700px;
+  background-color: #B1B0AF;
+}
+
+
+.top_title {
+  font-size: 24px;
+  word-spacing: 5px;
+}
+
+.top p {
+  word-spacing: 6px;
+  letter-spacing: 4px;
+}
+
+.top div {
+  margin-left: 40px;
+}
+
+/* ABOUT */
+.about_sec img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.section_title {
+  font-size: 44px;
+  text-align: center;
+  margin: 30px;
+  margin-top: 50px;
+  color: rgb(134, 40, 40);
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 200px 0 200px 0;
+}
+
+.div1 p {
+  margin-left: 40px;
+}
+
+.div1 p strong {
+  font-size: 18px;
+}
+
+/* SKILL */
+.skill_sec p {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.skill_item {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.skill_img {
+  margin-right: 20px;
+}
+
+.skill_img img {
+  width: 120px;
+}
+
+.div2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill_sec h3 {
+  font-size: 20px;
+  display: flex;
+  align-content: center;
+}
+
+/* WORKS */
+.works_sec div p {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.work_all {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work_item {
+  flex: 32%;
+  margin-right: 2%;
+}
+
+.work_item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.work_item a img {
+  width: 100%;
+}
+
+.work_body p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+
+/* CONTACT */
+.contact_sec p {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.contact_sec {
+  background-color: #b1b0af;
+}
+
+.contact_list {
+  display: flex;  align-items: center;
+  justify-content: center;
+}
+
+.contact_list li {
+  list-style: none;
+}
+
+.contact_img {
+  width: 60px;
+}
+
+.contact_mail {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* FOOTER */
+.bottom {
+  background-color: #333;
+}
+
+.bottom .inner {
+  padding: 30px;
+}
+
+.copyright {
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+}

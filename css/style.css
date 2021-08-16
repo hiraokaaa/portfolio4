@@ -13,7 +13,7 @@ a {
   color: #fff;
 }
 
-li {
+.nav_item {
   list-style: none;
   margin: 10px;
 }
@@ -92,8 +92,10 @@ li {
 .section_title {
   font-size: 44px;
   text-align: center;
-  margin: 30px;
-  margin-top: 50px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  padding-top: 120px;
+  margin-top: -70px;
   color: rgb(134, 40, 40);
 }
 
@@ -117,28 +119,46 @@ li {
   text-align: center;
   margin-bottom: 100px;
 }
-.skill_item {
-  display: flex;
-  margin-bottom: 50px;
-}
 
-.skill_img {
-  margin-right: 20px;
-}
-
-.skill_img img {
-  width: 120px;
-}
-
-.div2 {
-  display: flex;
+.skill_ul {
+   display:grid;
+     grid-template-rows:auto auto;
+     grid-template-columns:auto auto;
+  list-style: none;
   justify-content: space-around;
 }
 
-.skill_sec h3 {
-  font-size: 20px;
+.skill_li1 {
+  grid-row: 1;
+  grid-column: 1;
   display: flex;
-  align-content: center;
+}
+.skill_li2 {
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+}
+.skill_li3 {
+  grid-row: 2;
+  grid-column: 1;
+  display: flex;
+  margin-top: 50px;
+}
+.skill_li4 {
+  grid-row: 2;
+  grid-column: 2;
+  display: flex;
+  margin-top: 50px
+}
+
+li img {
+  width: 80px;
+}
+
+.skill_sec h3 {
+  margin-left: 30px;
+  margin-top: 22px;
+  font-size: 20px;
 }
 
 /* WORKS */
@@ -173,9 +193,9 @@ li {
 }
 
 /* CONTACT */
-.contact_sec p {
+.contact_p {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 .contact_sec {
   background-color: #b1b0af;
@@ -197,6 +217,7 @@ li {
 .contact_mail {
   margin-top: 10px;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 /* FOOTER */
